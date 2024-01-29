@@ -1,0 +1,5 @@
+
+*.obj
+zig-cache
+zig-out
+WinRel
