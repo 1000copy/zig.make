@@ -70,3 +70,4 @@ HZLUG会上，有人提到，既然Zig的一个重要应用就是作为C语言�
 
 有用的资源：
     https://makefiletutorial.com/
+    [Testing and building C projects with Zig](https://renato.athaydes.com/posts/testing-building-c-with-zig.html)
