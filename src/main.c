@@ -2364,6 +2364,8 @@ main (int argc, char **argv, char **envp)
         while (d != NULL)
           {
             struct goaldep *t = d;
+            
+            printf("%s",d->name);
             d = d->next;
             t->next = read_files;
             read_files = t;

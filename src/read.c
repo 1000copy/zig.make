@@ -174,6 +174,7 @@ static char *unescape_char (char *string, int c);
 struct goaldep *
 read_all_makefiles (const char **makefiles)
 {
+  printf("read_all_makefiles");
   unsigned int num_makefiles = 0;
 
   /* Create *_LIST variables, to hold the makefiles, targets, and variables
@@ -220,6 +221,7 @@ read_all_makefiles (const char **makefiles)
 
         /* Reuse the storage allocated for the read_file.  */
         *makefiles = dep_name (d);
+        printf("-%s-",*makefiles);
         ++num_makefiles;
         ++makefiles;
       }
