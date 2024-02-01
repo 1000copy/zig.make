@@ -6,3 +6,7 @@ WinRel
 autom4te.cache
 .deps
 doc/Makefile
+*.a
+*.o
+*.log
+make
