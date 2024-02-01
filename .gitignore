@@ -3,3 +3,6 @@
 zig-cache
 zig-out
 WinRel
+autom4te.cache
+.deps
+doc/Makefile
